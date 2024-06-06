@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714256051721",
+    "project_id": "photogallery-c4706",
+    "storage_bucket": "photogallery-c4706.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714256051721:android:e82e837b597d3ff890d2d8",
+        "android_client_info": {
+          "package_name": "com.tlh.photogallery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAJ22jpZNER_Tgzzpc177e52LwvJG99W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
