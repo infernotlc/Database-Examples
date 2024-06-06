@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/foodlistFragment2">
+
+    <argument
+        android:name="foodId"
+        app:argType="integer" />
+    <fragment
+        android:id="@+id/foodlistFragment2"
+        android:name="com.tlh.foods.FoodlistFragment"
+        android:label="fragment_foodlist"
+        tools:layout="@layout/fragment_foodlist" />
+    <fragment
+        android:id="@+id/foodDetailFragment3"
+        android:name="com.tlh.foods.FoodDetailFragment"
+        android:label="fragment_food_detail"
+        tools:layout="@layout/fragment_food_detail" />
+</navigation>
